@@ -1,0 +1,17 @@
+# Secrets and credentials
+secrets.py
+**/secrets.py
+
+# MicroPython compiled files
+*.pyc
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo

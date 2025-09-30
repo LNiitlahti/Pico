@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "author": "Lassi Niitlahti",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -28.8,
+      "left": 201.4,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 48.95,
+      "left": 172.8,
+      "attrs": {
+        "value": "120"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -86.4,
+      "left": -105.6,
+      "attrs": {
+        "color": "red"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "pico:GP15",
+      "r1:1",
+      "green",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "r1:2",
+      "led1:A",
+      "green",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "led1:C",
+      "pico:GND.8",
+      "black",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "btn1:1.l",
+      "pico:GP14",
+      "blue",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "btn1:2.r",
+      "pico:3V3",
+      "red",
+      [
+        "v0"
+      ]
+    ]
+  ],
+  "dependencies": {}
+}

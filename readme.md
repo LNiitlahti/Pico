@@ -8,7 +8,7 @@
 | 2 | Name checker (Clark Kent) | [task2_name_checker.py](lesson1/task2_name_checker.py) | [Run](https://wokwi.com/projects/443533270339423233) | ✅ |
 | 3 | Blink onboard LED | [task3_blink_led.py](lesson1/task3_blink_led.py) | [Run](https://wokwi.com/projects/443534177761537025) | ✅ |
 | 4 | Button controlled LED | [task4_button_led.py](lesson1/task4_button_led.py) | [Run](https://wokwi.com/projects/443534652697354241) | ✅ |
-| 5 | Traffic lights with buzzer | [task5_traffic_lights.py](lesson1/task5_traffic_lights.py) | [Run](link) | ❌ |
+| 5 | Traffic lights with buzzer | [task5_traffic_lights.py](lesson1/task5_traffic_lights.py) | [Run](https://wokwi.com/projects/443536146344851457) | ✅ |
 | 6 | Reaction time game | [task6_reaction_game.py](lesson1/task6_reaction_game.py) | [Run](link) | ❌ |
 | 7 | Burglary alarm | [task7_burglary_alarm.py](lesson1/task7_burglary_alarm.py) | [Run](link) | ❌ |
 | 8 | Weather station (local) | [task8_weather_station.py](lesson1/task8_weather_station.py) | [Run](link) | ❌ |

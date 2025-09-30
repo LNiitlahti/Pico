@@ -3,7 +3,7 @@
 # This program blinks an external LED connected to GPIO pin 15
 # The LED turns on for 1 second, then off for 1 second, repeatedly
 
-from machine import Pin
+from machine import Pin # type: ignore (VSCODE error bypass)
 import time
 
 # Set up the external LED connected to GP15

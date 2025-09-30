@@ -5,7 +5,7 @@
 | Task | Description | Code | Wokwi |
 |------|-------------|------|-------|
 | 1 | Print numbers 0-9 | [task1_print_numbers.py](lesson1/task1_print_numbers.py) | [Run](https://wokwi.com/projects/443532858830928897) |
-| 2 | Name checker (Clark Kent) | [task2_name_checker.py](lesson1/task2_name_checker.py) | [Run](link) |
+| 2 | Name checker (Clark Kent) | [task2_name_checker.py](lesson1/task2_name_checker.py) | [Run](https://wokwi.com/projects/443533270339423233) |
 | 3 | Blink onboard LED | [task3_blink_led.py](lesson1/task3_blink_led.py) | [Run](link) |
 | 4 | Button controlled LED | [task4_button_led.py](lesson1/task4_button_led.py) | [Run](link) |
 | 5 | Traffic lights with buzzer | [task5_traffic_lights.py](lesson1/task5_traffic_lights.py) | [Run](link) |

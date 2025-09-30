@@ -1,4 +1,4 @@
----
+# This is a simple project to test the Pico board.
 
 ## Lesson 1: Embedded Programming Basics
 
@@ -14,19 +14,13 @@
 | 8 | Weather station (local) | [task8_weather_station.py](lesson1/task8_weather_station.py) | [Run](link) |
 | 9 | Weather station (ThingSpeak) | [task9_weather_iot.py](lesson1/task9_weather_iot.py) | [Run](link) |
 
----
-
 ## Lesson 2
 
 [To be added]
 
----
-
 ## Lesson 3
 
 [To be added]
-
----
 
 ## Lesson 4
 

@@ -64,4 +64,15 @@ DHT22 Sensor → Raspberry Pi Pico W → WiFi Network → Internet → ThingSpea
 
 ## Lesson 4: Basics of frontend programming
 
-[To be added]
+Created an interactive IoT dashboard ([dashboard.html](lesson4/dashboard.html)) that visualizes sensor data from ThingSpeak in real-time.
+
+**Features:**
+- Real-time data fetching from ThingSpeak API
+- Interactive Chart.js graphs (temperature & humidity over time)
+- Auto-refresh functionality (30-second intervals)
+- Discord webhook integration for notifications
+  - Sends current sensor readings to Discord
+  - Includes chart visualization as image attachment
+  - Professional embedded message format
+- Professional military-tech styling (dark theme with olive/gold accents)
+- Responsive design with live activity logging

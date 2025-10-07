@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "author": "Lassi Niitlahti",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20241129-v1.24.1" }
+    },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -191.7,
+      "left": 109.8,
+      "attrs": { "temperature": "24", "humidity": "60" }
+    }
+  ],
+  "connections": [
+    [ "dht1:VCC", "pico:3V3", "red", [ "v86.4", "h-28.8", "v3.25" ] ],
+    [ "dht1:SDA", "pico:GP15", "green", [ "v28.8", "h-220.7", "v243.21" ] ],
+    [ "dht1:GND", "pico:GND", "black", [] ]
+  ],
+  "dependencies": {}
+}

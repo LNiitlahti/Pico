@@ -20,8 +20,48 @@ Created an Express.js server ([server.js](lesson2/server.js)) with a GET endpoin
 
 ## Lesson 3: Basics of API's and databases
 
-[To be added]
+### IoT Pipeline: Sensor to Cloud
 
-## Lesson 4
+Created a complete IoT data pipeline ([sensor_to_thingspeak.py](lesson3/sensor_to_thingspeak.py)) that demonstrates the flow of data from sensor to cloud storage.
+
+**Pipeline Architecture:**
+```
+DHT22 Sensor → Raspberry Pi Pico W → WiFi Network → Internet → ThingSpeak API → Cloud Database
+```
+
+**How the Pipeline Works:**
+
+1. **Sensor Reading (Hardware → Software)**
+   - DHT22 sensor measures temperature & humidity
+   - Connected to GPIO Pin 15 on the Pico
+   - MicroPython reads the data via `sensor.measure()`
+
+2. **Data Processing**
+   - Pico formats sensor values
+   - Prepares data as HTTP GET request parameters
+
+3. **Network Connection (WiFi)**
+   - Pico W connects to WiFi using credentials
+   - Establishes internet connectivity
+
+4. **API Request (HTTP GET)**
+   - Sends data to ThingSpeak endpoint: `http://api.thingspeak.com/update`
+   - Uses JSON-formatted key-value pairs
+   - Example: `?api_key=YOUR_KEY&field1=24.5&field2=60`
+
+5. **Cloud Storage**
+   - ThingSpeak receives and stores data with timestamp
+   - Data viewable on dashboard with graphs and analytics
+
+6. **Automated Loop**
+   - Repeats every 20 seconds (ThingSpeak free tier minimum: 15s)
+
+**Key Concepts:**
+- **JSON**: Data format for API communication (key-value pairs)
+- **API Endpoint**: Specific URL that accepts data requests
+- **HTTP Methods**: Using GET to send sensor data
+- **Pipeline**: Automated data flow from source to destination
+
+## Lesson 4: Basics of frontend programming
 
 [To be added]

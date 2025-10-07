@@ -14,11 +14,11 @@
 | 8 | Weather station (local) | [task8_weather_station.py](lesson1/task8_weather_station.py) | [Run](https://wokwi.com/projects/443538723743015937) | ✅ |
 | 9 | Weather station (ThingSpeak) | [task9_weather_iot.py](lesson1/task9_weather_iot.py) | [Run](https://wokwi.com/projects/443538893503309825) &amp; [Example data](https://thingspeak.mathworks.com/channels/3096194) | ✅ |
 
-## Lesson 2
+## Lesson 2: Basics of backend programming
 
-[To be added]
+Created an Express.js server ([server.js](lesson2/server.js)) with a GET endpoint that returns JSON data with temperature, humidity, and status.
 
-## Lesson 3
+## Lesson 3: Basics of API's and databases
 
 [To be added]
 

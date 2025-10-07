@@ -2,6 +2,9 @@
 secrets.py
 **/secrets.py
 
+# Node.js dependencies
+node_modules/
+
 # MicroPython compiled files
 *.pyc
 __pycache__/
